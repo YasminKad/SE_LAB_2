@@ -1,10 +1,9 @@
 package Step_3_With_SOLID;
 
-import Step_1_Non_SOLID.PaymentServices.OnSiteOrderService;
-import Step_1_Non_SOLID.PaymentServices.OnlineOrderService;
-import Step_1_Non_SOLID.PaymentServices.OrderService;
-import Step_1_Non_SOLID.PaymentServices.PhoneOrderService;
-import Step_3_With_SOLID.*;
+import Step_3_With_SOLID.PaymentServices.OnSiteOrderService;
+import Step_3_With_SOLID.PaymentServices.OnlineOrderService;
+import Step_3_With_SOLID.PaymentServices.OrderService;
+import Step_3_With_SOLID.PaymentServices.PhoneOrderService;
 
 import java.util.Scanner;
 
@@ -43,25 +42,17 @@ public class Main {
         customerAnswerForPaymentMethod = scanner.nextInt();
         if(customerAnswerForPaymentMethod==1){
             orderService = new OnlineOrderService();
-            orderService.onlineOrderRegister(customerName);
         } else if(customerAnswerForPaymentMethod==2){
             orderService = new OnSiteOrderService();
-            orderService.onSiteOrderRegister(customerName);
         } else if (customerAnswerForOrder==3) {
             orderService = new PhoneOrderService();
-            orderService.phoneOrderRegister(customerName);
         }
+        orderService.orderRegister(customerName);
 
         //Step3 : pay price
         System.out.println("Pay Price:");
-//        if(orderService instanceof OnlineOrderService){
-//            orderService.onlineOrderPayment(order.getTotalPrice());
-//        } else if(orderService instanceof OnSiteOrderService){
-//            orderService.onSiteOrderPayment(order.getTotalPrice());
-//        } else if (orderService instanceof PhoneOrderService) {
-//            orderService.phoneOrderPayment(order.getTotalPrice());
-//        }
         orderService.orderPayment(order.getTotalPrice());
+
         //Finally Print Bill
         System.out.println(order);
 
