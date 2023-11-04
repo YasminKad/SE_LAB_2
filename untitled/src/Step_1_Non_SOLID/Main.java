@@ -1,7 +1,9 @@
-import PaymentServices.OnSiteOrderService;
-import PaymentServices.OnlineOrderService;
-import PaymentServices.OrderService;
-import PaymentServices.PhoneOrderService;
+package Step_1_Non_SOLID;
+
+import Step_1_Non_SOLID.PaymentServices.OnSiteOrderService;
+import Step_1_Non_SOLID.PaymentServices.OnlineOrderService;
+import Step_1_Non_SOLID.PaymentServices.OrderService;
+import Step_1_Non_SOLID.PaymentServices.PhoneOrderService;
 
 import java.util.Scanner;
 
@@ -19,7 +21,7 @@ public class Main {
         customerName = scanner.nextLine();
         order = new Order(customerName);
 
-        //Step 1 : Select Order Items
+        //Step 1 : Select Step_1_Non_SOLID.Order Items
         while (customerAnswerForOrder!=3){
             System.out.println("For Ordering Sandwich enter 1.");
             System.out.println("For Ordering Pizza enter 2.");

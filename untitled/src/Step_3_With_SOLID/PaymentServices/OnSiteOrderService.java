@@ -1,19 +1,19 @@
-package PaymentServices;
+package Step_3_With_SOLID.PaymentServices;
 
-public class PhoneOrderService implements OrderService{
+public class OnSiteOrderService implements OrderService {
     @Override
     public void onSiteOrderRegister(String customerName) {
-        //Empty Body!
+        System.out.println("online order registered for " + customerName);
     }
 
     @Override
     public void onlineOrderRegister(String customerName) {
-        //Empty Body!
+        //Empty Body
     }
 
     @Override
     public void onSiteOrderPayment(int foodPrice) {
-        //Empty Body!
+        System.out.println("on-Site Payment with Price : " + foodPrice + " Tomans!");
     }
 
     @Override
@@ -23,11 +23,12 @@ public class PhoneOrderService implements OrderService{
 
     @Override
     public void phoneOrderRegister(String customerName) {
-        System.out.println("phone order registered for " + customerName);
+        //Empty Body!
     }
 
     @Override
     public void phoneOrderPayment(int foodPrice) {
-        System.out.println("phone Payment with Price : " + foodPrice + " Tomans!");
+        //Empty Body!
     }
+
 }

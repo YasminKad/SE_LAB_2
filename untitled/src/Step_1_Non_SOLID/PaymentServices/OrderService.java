@@ -1,4 +1,4 @@
-package PaymentServices;
+package Step_1_Non_SOLID.PaymentServices;
 
 public interface OrderService {
     public void onSiteOrderRegister(String customerName);

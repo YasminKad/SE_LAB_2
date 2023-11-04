@@ -1,3 +1,5 @@
+package Step_1_Non_SOLID;
+
 public class Food {
     String foodName;
     int price;

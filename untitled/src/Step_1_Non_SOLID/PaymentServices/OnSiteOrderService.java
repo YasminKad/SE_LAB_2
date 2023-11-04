@@ -1,4 +1,4 @@
-package PaymentServices;
+package Step_1_Non_SOLID.PaymentServices;
 
 public class OnSiteOrderService implements OrderService {
     @Override
