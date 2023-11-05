@@ -1,96 +1,7 @@
 # SE_LAB_2
 # Step1
-<table dir='rtl'>
-<tbody>
-<tr>
-<td width="64">
-<p><strong>ردیف</strong></p>
-</td>
-<td width="198">
-<p><strong>محل اعمال تغییرات (کلاس/واسط)</strong></p>
-</td>
-<td width="141">
-<p><strong>عنوان تغییر</strong></p>
-</td>
-<td width="292">
-<p><strong>شرحی کوتاه از تغییر</strong></p>
-</td>
-</tr>
-<tr>
-<td width="64">
-<p><strong>۱</strong></p>
-</td>
-<td width="198">
-<p>Order Service</p>
-</td>
-<td width="141">
-<p>افزودن تابع پرداخت تلفنی</p>
-</td>
-<td width="292">
-<p>افزودن یک تابع void با عنوان phone Order Payment</p>
-</td>
-</tr>
-<tr>
-<td width="64">
-<p><strong>۲</strong></p>
-</td>
-<td width="198">
-<p>Order Service</p>
-</td>
-<td width="141">
-<p>افزودن تابع ثبت سفارش تلفتی</p>
-</td>
-<td width="292">
-<p>افزودن یک تابع void با عنوان phone Order Payment</p>
-</td>
-</tr>
-<tr>
-<td width="64">
-<p><strong>&nbsp;</strong></p>
-</td>
-<td width="198">
-<p>&nbsp;</p>
-</td>
-<td width="141">
-<p>&nbsp;</p>
-</td>
-<td width="292">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="64">
-<p><strong>&nbsp;</strong></p>
-</td>
-<td width="198">
-<p>&nbsp;</p>
-</td>
-<td width="141">
-<p>&nbsp;</p>
-</td>
-<td width="292">
-<p>&nbsp;</p>
-</td>
-</tr>
-<tr>
-<td width="64">
-<p><strong>&nbsp;</strong></p>
-</td>
-<td width="198">
-<p>&nbsp;</p>
-</td>
-<td width="141">
-<p>&nbsp;</p>
-</td>
-<td width="292">
-<p>&nbsp;</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-
-#STEP 3 [PART 2]
+#STEP3[PART 2]
 <table dir='rtl'>
 <tbody>
 <tr>
@@ -274,9 +185,10 @@
 </tbody>
 </table>
 
-#STEP 4
+#STEP4
 
-#STEP 5
+#STEP5
+
 اگر requirement های پروژه ما اپدیت شوند و کد نیازمند تغییر (افزودن کد - تغییر قسمت های قبلی - حذف کد - بهبود کد های موجود) باشد، با رعایت اصول SOLID هزینه ی این تغییر برای ما بسیار کمتر خواهد بود چرا که با رعایت این اصول coupling قسمت های مختلف کد ما به حداقل رسیده و cohesion آن نیز زیاد می شود که اتفاق بر خوانا بودن کد و قابلیت نگهداری آن می افزاید.
 
 مجموع تعداد تغییرات: ..............
