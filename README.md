@@ -1,7 +1,5 @@
 # SE_LAB_2
-
 # Step1
-
 <table dir='rtl'>
 <tbody>
 <tr>
@@ -92,9 +90,7 @@
 </table>
 
 
-YYYY AAAA SSSS MMMMM IIII NNN
-
-
+#STEP 3 [PART 2]
 <table dir='rtl'>
 <tbody>
 <tr>
@@ -153,7 +149,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>برای مسئولیت‌های متفرقه این کلاس کلاس‌های جداگانه به وجود بیاوریم و سپس آنها را با توابع مربوطه پر کنیم.</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>single responsibilty principle (SRP)</p>
@@ -165,7 +160,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>برای مسئولیت‌های متفرقه این کلاس کلاس‌های جداگانه به وجود بیاوریم و سپس آنها را با توابع مربوطه پر کنیم.</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>single responsibilty principle (SRP)</p>
@@ -177,7 +171,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>برای مسئولیت‌های متفرقه این کلاس کلاس‌های جداگانه به وجود بیاوریم و سپس آنها را با توابع مربوطه پر کنیم.</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>open closed principle (OCP</p>
@@ -189,7 +182,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>استفاده از ارث‌بری و dependency injection</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -202,7 +194,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -214,8 +205,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -227,8 +216,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -240,8 +227,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -253,8 +238,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
-
 <tr>
 <td width="168">
 <p>Interface Segregation Principle</p>
@@ -266,7 +249,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>کلاس‌بندی جدید برای رفع تراکم‌های اضافی</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>Dependency Inversion Principle</p>
@@ -278,7 +260,6 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>اضافه کردن abstraction به پروژه</p>
 </td>
 </tr>
-
 <tr>
 <td width="168">
 <p>Dependency Inversion Principle</p>
@@ -290,9 +271,12 @@ YYYY AAAA SSSS MMMMM IIII NNN
 <p>اضافه کردن abstraction به پروژه</p>
 </td>
 </tr>
-
-
 </tbody>
 </table>
+
+#STEP 4
+
+#STEP 5
+اگر requirement های پروژه ما اپدیت شوند و کد نیازمند تغییر (افزودن کد - تغییر قسمت های قبلی - حذف کد - بهبود کد های موجود) باشد، با رعایت اصول SOLID هزینه ی این تغییر برای ما بسیار کمتر خواهد بود چرا که با رعایت این اصول coupling قسمت های مختلف کد ما به حداقل رسیده و cohesion آن نیز زیاد می شود که اتفاق بر خوانا بودن کد و قابلیت نگهداری آن می افزاید.
 
 مجموع تعداد تغییرات: ..............
